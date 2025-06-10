@@ -1,4 +1,4 @@
-/* General resets and body styling remain good */
+/* General resets*/
 * {
   padding: 0;
   margin: 0;
@@ -21,33 +21,33 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 320px; /* Adjust max-width based on design */
+  max-width: 320px;
   padding: 16px; /* Padding inside the card for content */
   text-align: center;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08); /* Optional: subtle shadow */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08); /* A Subtle Shadow */
 }
 
 .qr-code {
   width: 100%; /* Make image fill its container's width */
   max-width: 280px; /* Max width for the image */
   height: auto; /* Maintain aspect ratio */
-  border-radius: 10px; /* Match card's border-radius if desired */
-  margin-bottom: 24px; /* Space below the image */
+  border-radius: 10px;
+  margin-bottom: 24px;
 }
 
 h2 {
-  font-size: 22px; /* Adjust font size */
+  font-size: 22px; 
   color: hsl(218, 44%, 22%);
-  margin-bottom: 16px; /* Space below the heading */
+  margin-bottom: 16px;
   line-height: 1.2; /* Improve readability */
-  padding: 0 8px; /* Optional: slight horizontal padding for text */
+  padding: 0 8px; /* Slight horizontal padding for text */
 }
 
 p {
   font-size: 15px;
   color: hsl(220, 15%, 55%);
-  font-weight: 400; /* Often, the paragraph is lighter */
-  margin-bottom: 8px; /* Space below the paragraph */
-  padding: 0 8px; /* Optional: slight horizontal padding for text */
+  font-weight: 400; 
+  margin-bottom: 8px; 
+  padding: 0 8px; /* Slight horizontal padding for text */
   padding-top: 15px;
 }
