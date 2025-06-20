@@ -15,7 +15,7 @@ body {
   padding: 20px; /* Add some padding to the body for very small screens */
 }
 
-.qr-card-container {
+.qr-card {
   background-color: white;
   border-radius: 20px;
   display: flex;
