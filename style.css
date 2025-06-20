@@ -7,29 +7,30 @@
 
 body {
   background-color: hsl(212, 45%, 89%);
-  font-family: sans-serif; 
+  font-family: 'Outfit', sans-serif;
   min-height: 100vh; /* Use min-height for body to allow content to grow */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px; /* Add some padding to the body for very small screens */
+  padding: 1.5rem; /* Add some padding to the body for very small screens */
 }
 
 .qr-card {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 320px;
-  padding: 16px; /* Padding inside the card for content */
+  width: 100%;
+  gap: 1rem;
+  padding: 1rem 1rem 1.5rem; /* Padding inside the card for content */
   text-align: center;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08); /* A Subtle Shadow */
 }
 .qr-card__img {
-  border-radius: 0.625rem;
-  max-inline-size: 100%;
-  block-size: auto;
+  max-width: 100%;
+  border-radius: 0.75rem;
 }
 
 .qr-card__title {
@@ -39,6 +40,7 @@ body {
 }
 
 .qr-card__body {
+  font-size: 0.938rem;
   color: hsl(220, 15%, 55%);
   padding-inline: 0.5rem;
 }
